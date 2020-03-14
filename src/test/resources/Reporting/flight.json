@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "verify flight booking detail with valid credential",
+        "description": "",
+        "id": "verifying-makemytrip-details;verify-flight-booking-detail-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I verify makemytrip page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30367,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I am entering the details \"Chennai, India\",\"Mumbai, India\",\"20 Mar 20\",\"22 Mar 20\",\"3\",\"3\",\"3\",\"Business\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai, India\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Mumbai, India\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"20 Mar 20\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"22 Mar 20\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"Business\"",
+                  "offset": 95
+                }
+              ],
+              "location": "flightStepDefinition.i_am_entering_the_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I should verify the messages",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying makemytrip details",
+    "description": "",
+    "id": "verifying-makemytrip-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featureTask/task.feature",
+    "tags": []
+  }
+]
